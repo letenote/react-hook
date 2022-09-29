@@ -13,6 +13,6 @@ function Page(){
 			<Footer />
 		</LangProvider>
 	);
-};
+}
 
 export default Page;

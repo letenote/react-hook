@@ -1,7 +1,7 @@
 import React, { createContext, useState } from "react";
 
-const AppContext = () => {
-	const LangContext = createContext();
+const AppContext = (defaultValue) => {
+	const LangContext = createContext(defaultValue);
 	const LangProvider = (props) => {
 		const [lang, setLang] = useState("id");
 		const changeLang = e => setLang(e.target.value);
