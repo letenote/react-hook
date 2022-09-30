@@ -12,7 +12,7 @@ coverage/
 __coverage__/
 __snapshots__/
 __mocks__/
-.env
+#.env
 
 # Compiled Java class files
 *.class
