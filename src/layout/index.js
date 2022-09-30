@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../logo.svg';
+import logo from 'logo.svg';
 
 function Layout(props) {
   return (
@@ -10,7 +10,9 @@ function Layout(props) {
       </header>
       <main className="App-body">{props.children}</main>
       <footer className="App-footer">
-
+        <p style={{ fontSize: 8 }}>
+          {`${process.env.REACT_APP_WEBSITE_NAME} V${process.env.REACT_APP_VERSION}`}
+        </p>
       </footer>
     </div>
   );
