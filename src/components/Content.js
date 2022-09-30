@@ -5,7 +5,6 @@ function Content() {
 	return (
 		<>
 			<i>-- To do --</i>
-			<h3> --- </h3>
 		</>
 	);
 }
